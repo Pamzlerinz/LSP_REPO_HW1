@@ -1,0 +1,20 @@
+# AI Usage Documentation
+
+## Summary
+
+I used Claude (Anthropic’s AI assistant) to learn Java programming concepts and best practices for implementing this ETL Pipeline assignment. Claude taught me proper coding techniques, and I created the implementation with Claude’s guidance.
+
+## Key Interaction
+
+**My Prompt**: “what about the java program that does the work?”
+
+**Claude’s Response**: Claude taught me how to structure a Java ETL Pipeline program, explaining concepts like proper package organization, transformation logic order, error handling techniques, and method separation (extract, transform, load). Claude provided examples and explanations of Java file I/O operations and CSV processing.
+
+**How I Used It**: I learned from Claude’s explanations and examples to create my own implementation. I studied the concepts Claude taught me about ETL design patterns, Java best practices, and proper error handling, then applied these learnings to build my solution. I also used Claude’s guidance to test and validate my program logic.
+
+## What I Learned
+
+- ETL pipeline design with separation of concerns
+- Java file I/O and error handling techniques
+- Importance of transformation order in data processing
+- Using relative paths in Java projects
