@@ -10,7 +10,48 @@
 
 ---
 
-## Midterm Question 2 - AreaCalculator Package
+# References Document
+## Midterm Exam - All Questions
+
+**Package:** `org.howard.edu.lsp.midterm`  
+**Date:** [Insert Date]  
+**Student:** [Your Name]
+
+---
+
+## AI-Generated Content
+
+### AI Tool Used:
+**Claude AI (Anthropic)** - Sonnet 4.5 model via Claude.ai
+
+---
+
+## Question 1 - StudentPortalHelper Cohesion Analysis
+
+### My Prompt:
+```
+I need to analyze a class called StudentPortalHelper that has multiple static methods doing different things - computing GPA, exporting CSV files, formatting emails, formatting dates, processing payments, checking password strength, and caching data. 
+
+Using Arthur Riel's heuristics, I need to determine if this class has high or low cohesion and explain whether high or low cohesion is better for well-designed classes. If it has problems, how should I refactor it?
+```
+
+### AI Response:
+```
+The AI explained that well-designed classes should have HIGH cohesion. For the StudentPortalHelper class, it identified very LOW cohesion because only 2 of 8 methods use the class's data member (violates Riel's Heuristic 2.9), and the class handles 7 completely unrelated responsibilities.
+
+The AI recommended refactoring by decomposing into 7 focused classes: GradeCalculator, RosterExporter, EmailComposer, DateFormatter, PaymentProcessor, PasswordValidator, and DataCache. Each would have methods that use shared instance data, achieving high cohesion.
+```
+
+### My Contributions:
+- Analyzed the StudentPortalHelper class structure and identified the cohesion problem
+- Understood Arthur Riel's Heuristic 2.9 about methods using data members
+- Calculated that only 25% of methods use class data
+- Evaluated the refactoring approach
+- Wrote the final analysis with specific examples
+
+---
+
+## Question 2 - AreaCalculator Package
 
 **Package:** `org.howard.edu.lsp.midterm.question2`  
 ## Full AI Conversation Transcript
