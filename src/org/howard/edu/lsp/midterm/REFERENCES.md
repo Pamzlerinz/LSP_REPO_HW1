@@ -10,22 +10,6 @@
 
 ---
 
-# References Document
-## Midterm Exam - All Questions
-
-**Package:** `org.howard.edu.lsp.midterm`  
-**Date:** [Insert Date]  
-**Student:** [Your Name]
-
----
-
-## AI-Generated Content
-
-### AI Tool Used:
-**Claude AI (Anthropic)** - Sonnet 4.5 model via Claude.ai
-
----
-
 ## Question 1 - StudentPortalHelper Cohesion Analysis
 
 ### My Prompt:
