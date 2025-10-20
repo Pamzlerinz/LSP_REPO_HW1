@@ -143,4 +143,40 @@ The solution demonstrated that composition allows the same Car object to have it
 - Tested the logic of the Strategy Pattern approach
 - Ensured the explanation clearly distinguishes IS-A vs HAS-A relationships
 
+## Question 4 - Smart Campus Device System
+
+### My Prompt:
+```
+I need to implement a smart campus device system with inheritance and interfaces. There's an abstract Device class provided that I need to extend. I need to create:
+- Two interfaces: Networked (with connect/disconnect/isConnected methods) and BatteryPowered (with battery get/set methods)
+- Three concrete device classes: DoorLock (networked + battery), Thermostat (networked only), and Camera (networked + battery)
+- Each device must extend Device and implement the appropriate interfaces
+
+The code needs to work with a provided Main.java file and demonstrate both class inheritance and interface implementation. Can you help me implement these classes?
+```
+
+### AI Response:
+```
+The AI provided complete implementations for:
+- Networked.java interface with connection management methods
+- BatteryPowered.java interface with battery management methods
+- DoorLock.java extending Device and implementing both interfaces
+- Thermostat.java extending Device and implementing Networked only
+- Camera.java extending Device and implementing both interfaces
+
+Each implementation included proper constructors calling super(), validation for battery percentage (0-100 with IllegalArgumentException), proper use of setConnected() from the Device class, and getStatus() methods formatted exactly as required. The AI also provided a rationale explaining why Device is abstract, how interfaces add optional behavior, and whether this represents multiple inheritance in Java.
+```
+
+### My Contributions:
+- Reviewed all class implementations for correctness
+- Verified proper use of abstract class inheritance
+- Tested that interface implementations meet all requirements
+- Ensured constructors properly validate inputs and call super()
+- Confirmed getStatus() output format matches specifications exactly
+- Wrote rationale answers explaining abstract classes, interfaces, and multiple inheritance concepts
+- Tested code compiles and runs with provided Main.java without modification
+- Understood how interfaces enable multiple inheritance of type in Java
+
+---
+
 I acknowledge that I used AI assistance (Claude AI) to generate the code for this assignment. The complete conversation transcript is included above. I understand the code and can explain how it works.
